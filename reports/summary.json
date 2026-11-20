@@ -1,0 +1,45 @@
+{
+  "rows": 1803,
+  "period": {
+    "start": "2017-03-24",
+    "end": "2022-02-28",
+    "calendar_days_inclusive": 1803
+  },
+  "data_quality": {
+    "missing_values": 0,
+    "duplicate_dates": 0,
+    "missing_calendar_dates": 0,
+    "max_abs_close_adj_close_difference": 0
+  },
+  "price": {
+    "start_adj_close": 937.52,
+    "end_adj_close": 43193.23,
+    "max_adj_close": 67566.83,
+    "max_price_date": "2021-11-08"
+  },
+  "risk_return": {
+    "period_return_pct": 4507.18,
+    "cagr_pct": 117.35,
+    "annualized_volatility_pct": 79.8,
+    "max_drawdown_pct": -83.4,
+    "drawdown_peak_date": "2017-12-16",
+    "drawdown_trough_date": "2018-12-15",
+    "best_day_pct": 25.25,
+    "best_day_date": "2017-12-07",
+    "worst_day_pct": -37.17,
+    "worst_day_date": "2020-03-12"
+  },
+  "volume": {
+    "average_daily": 22221841078,
+    "max_daily": 350967941479,
+    "max_date": "2021-02-26"
+  },
+  "annual_returns_pct": {
+    "2017": 1409.98,
+    "2018": -72.6,
+    "2019": 87.16,
+    "2020": 302.79,
+    "2021": 57.64,
+    "2022": -9.42
+  }
+}
