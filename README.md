@@ -28,11 +28,11 @@ Campos: `Date`, `High`, `Low`, `Open`, `Close`, `Volume` e `Adj Close`.
 - Melhor dia: **25.25%** em **2017-12-07**
 - Pior dia: **-37.17%** em **2020-03-12**
 
-## 1. Preço e ciclos de mercado
+## 1. Fechamento, média móvel e tendência
 
-A escala logarítmica facilita a leitura de uma série que muda de ordem de grandeza ao longo do período.
+O gráfico principal combina o **fechamento diário** com uma **média móvel de 30 dias** e uma **tendência de 90 dias**. Essa composição reduz o ruído visual da série e facilita a leitura dos grandes ciclos de valorização e correção.
 
-![Preço](reports/figures/price_log.svg)
+![Análise do fechamento Bitcoin](reports/figures/price_trend.svg)
 
 ## 2. Retorno acumulado
 
@@ -125,6 +125,8 @@ pytest -q
 ## Tecnologias
 
 Python · Pandas · NumPy · Matplotlib · Jupyter Notebook · Pytest · GitHub Actions
+
+As visualizações seguem um padrão gráfico único, com fundo de plotagem claro, grade discreta, títulos hierarquizados e sobreposição de indicadores quando analiticamente útil.
 
 ## Limitações
 
